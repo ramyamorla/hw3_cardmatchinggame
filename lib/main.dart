@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 
 void main() {
-  runApp(CardMatchingGame());
+  runApp(const CardMatchingGame());
 }
 
 class CardModel {
@@ -135,7 +135,7 @@ class _CardMatchingGameState extends State<CardMatchingGame> {
                     child: Column(
                       children: [
                         const Text(
-                          'Name: Abhiram Gelle',
+                          'Name: Ramya Sri Morla',
                           style: TextStyle(
                               fontSize: 18,
                               fontWeight: FontWeight.bold,
@@ -143,7 +143,7 @@ class _CardMatchingGameState extends State<CardMatchingGame> {
                         ),
                         const SizedBox(height: 8),
                         Text(
-                          'Panther ID: 002850818',
+                          'Panther ID: 002824625',
                           style:
                               TextStyle(fontSize: 16, color: Colors.grey[300]),
                         ),
@@ -209,7 +209,7 @@ class _CardMatchingGameState extends State<CardMatchingGame> {
                   padding: EdgeInsets.all(20.0),
                   child: Text(
                     'You Win!',
-                    style: TextStyle(fontSize: 32, color: Colors.green),
+                    style: TextStyle(fontSize: 35, color: Colors.green),
                   ),
                 ),
             ],
